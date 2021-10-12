@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:twilight_oak_boat",
+    "twilightdecor:canopy_boat",
+    "twilightdecor:mangrove_boat",
+    "twilightdecor:darkwood_boat",
+    "twilightdecor:timewood_boat",
+    "twilightdecor:transformation_boat",
+    "twilightdecor:mining_boat",
+    "twilightdecor:sorting_boat"
+  ]
+}

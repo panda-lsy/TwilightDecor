@@ -1,0 +1,8 @@
+{
+  "parent": "decorative_blocks:custom/beam_y",
+  "textures": {
+    "particle": "twilightdecor:block/canopy_beam_side",
+    "side": "twilightdecor:block/canopy_beam_side",
+    "end": "twilightdecor:block/canopy_beam_end"
+  }
+}

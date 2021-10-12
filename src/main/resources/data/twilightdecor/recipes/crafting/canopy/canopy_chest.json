@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "canopy_chest",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:canopy_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:canopy_chest",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "abnormals_core:quark_flag",
+          "flag": "variant_chests"
+        }
+      ]
+    }
+  ]
+} 

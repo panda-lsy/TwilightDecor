@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:dark_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:darkwood_support",
+    "count": 3
+  }
+}

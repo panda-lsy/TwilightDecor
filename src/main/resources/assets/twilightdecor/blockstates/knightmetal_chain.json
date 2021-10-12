@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "twilightdecor:block/knightmetal_chain",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "twilightdecor:block/knightmetal_chain"
+    },
+    "axis=z": {
+      "model": "twilightdecor:block/knightmetal_chain",
+      "x": 90
+    }
+  }
+}

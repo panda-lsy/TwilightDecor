@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/support",
+  "textures": {
+    "particle": "twilightdecor:block/mangrove_support",
+    "texture": "twilightdecor:block/mangrove_support"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:canopy_leaves"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:canopy_leaf_carpet",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "leaf_carpet"
+    }
+  ]
+} 

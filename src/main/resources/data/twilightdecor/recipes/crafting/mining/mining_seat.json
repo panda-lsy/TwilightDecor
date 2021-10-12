@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "y  "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:mine_slab"
+    },
+    "y": {
+      "item": "twilightforest:mine_fence"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:mining_seat",
+    "count": 2
+  }
+}

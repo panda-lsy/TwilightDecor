@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "y  "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:mangrove_slab"
+    },
+    "y": {
+      "item": "twilightforest:mangrove_fence"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:mangrove_seat",
+    "count": 2
+  }
+}

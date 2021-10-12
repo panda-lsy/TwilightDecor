@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/seat_top",
+  "textures": {
+    "particle": "twilightdecor:block/darkwood_seat",
+    "texture": "twilightdecor:block/darkwood_seat"
+  }
+}

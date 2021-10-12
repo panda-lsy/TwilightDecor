@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "twilightforest:block/wood/planks_darkwood_0",
+        "side": "twilightdecor:block/darkwood_bookshelf"
+    }
+}

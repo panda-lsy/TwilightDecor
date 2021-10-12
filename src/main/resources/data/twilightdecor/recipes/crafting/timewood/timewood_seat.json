@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x  ",
+    "y  "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:time_slab"
+    },
+    "y": {
+      "item": "twilightforest:time_fence"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:timewood_seat",
+    "count": 2
+  }
+}

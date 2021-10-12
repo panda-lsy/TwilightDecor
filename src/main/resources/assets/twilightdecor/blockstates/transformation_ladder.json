@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "twilightdecor:block/transformation_ladder" },
+        "facing=east":  { "model": "twilightdecor:block/transformation_ladder", "y": 90 },
+        "facing=south": { "model": "twilightdecor:block/transformation_ladder", "y": 180 },
+        "facing=west":  { "model": "twilightdecor:block/transformation_ladder", "y": 270 }
+    }
+}

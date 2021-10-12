@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "twilightdecor:vertical_transformation_planks"
+    }
+  ],
+  "result": {
+    "item": "twilightforest:trans_planks",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+} 

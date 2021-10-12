@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "twilightdecor:block/transformation_beam_x"
+    },
+    "axis=y": {
+      "model": "twilightdecor:block/transformation_beam_y"
+    },
+    "axis=z": {
+      "model": "twilightdecor:block/transformation_beam_z"
+    }
+  }
+}

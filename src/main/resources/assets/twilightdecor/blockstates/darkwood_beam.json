@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "twilightdecor:block/darkwood_beam_x"
+    },
+    "axis=y": {
+      "model": "twilightdecor:block/darkwood_beam_y"
+    },
+    "axis=z": {
+      "model": "twilightdecor:block/darkwood_beam_z"
+    }
+  }
+}

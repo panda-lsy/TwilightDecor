@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:canopy_chest",
+    "twilightdecor:darkwood_chest",
+    "twilightdecor:mangrove_chest",
+    "twilightdecor:mining_chest",
+    "twilightdecor:sorting_chest",
+    "twilightdecor:timewood_chest",
+    "twilightdecor:transformation_chest",
+    "twilightdecor:twilight_oak_chest"
+  ]
+}

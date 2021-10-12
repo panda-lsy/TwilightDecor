@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:canopy_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:vertical_canopy_planks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+} 

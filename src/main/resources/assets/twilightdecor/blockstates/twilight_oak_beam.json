@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "twilightdecor:block/twilight_oak_beam_x"
+    },
+    "axis=y": {
+      "model": "twilightdecor:block/twilight_oak_beam_y"
+    },
+    "axis=z": {
+      "model": "twilightdecor:block/twilight_oak_beam_z"
+    }
+  }
+}

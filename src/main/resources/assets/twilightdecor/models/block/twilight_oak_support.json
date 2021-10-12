@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/support",
+  "textures": {
+    "particle": "twilightdecor:block/twilight_oak_support",
+    "texture": "twilightdecor:block/twilight_oak_support"
+  }
+}

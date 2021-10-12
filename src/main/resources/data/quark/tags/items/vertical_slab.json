@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:canopy_vertical_slab",
+    "twilightdecor:darkwood_vertical_slab",
+    "twilightdecor:mangrove_vertical_slab",
+    "twilightdecor:mining_vertical_slab",
+    "twilightdecor:sorting_vertical_slab",
+    "twilightdecor:timewood_vertical_slab",
+    "twilightdecor:transformation_vertical_slab",
+    "twilightdecor:twilight_oak_vertical_slab"
+  ]
+}

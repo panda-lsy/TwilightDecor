@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    },
+    {
+      "item": "twilightforest:experiment_115"
+    }
+  ],
+  "result": {
+    "item": "twilightdecor:experiment_115_pie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

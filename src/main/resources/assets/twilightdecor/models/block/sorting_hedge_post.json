@@ -1,0 +1,7 @@
+{
+  "parent": "quark:block/hedge_post",
+  "textures": {
+    "log": "twilightforest:block/sorting_log",
+    "leaf": "twilightforest:block/sorting_leaves"
+  }
+}

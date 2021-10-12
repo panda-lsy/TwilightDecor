@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "W"
+  ],
+  "key": {
+    "L": {
+      "item": "twilightforest:mangrove_leaves"
+    },
+    "W": {
+      "tag": "twilightforest:mangrove_logs"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:mangrove_hedge",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "hedges"
+    }
+  ]
+} 

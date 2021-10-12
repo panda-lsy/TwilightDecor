@@ -1,0 +1,8 @@
+{
+    "parent": "block/ladder",
+    "textures": {
+        "particle": "twilightdecor:block/transformation_ladder",
+        "texture": "twilightdecor:block/transformation_ladder"
+    }
+}
+

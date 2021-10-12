@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:trans_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:vertical_transformation_planks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+} 

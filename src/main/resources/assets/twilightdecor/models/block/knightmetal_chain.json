@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/chain",
+  "textures": {
+    "particle": "twilightdecor:block/knightmetal_chain",
+    "texture": "twilightdecor:block/knightmetal_chain"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "attached": "true"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mining_seat_post"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mining_seat_top"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mining_seat_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mining_seat_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mining_seat_top",
+        "y": 270
+      }
+    }
+  ]
+}

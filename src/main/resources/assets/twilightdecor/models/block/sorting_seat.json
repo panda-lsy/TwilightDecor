@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/seat",
+  "textures": {
+    "particle": "twilightdecor:block/sorting_seat",
+    "texture": "twilightdecor:block/sorting_seat"
+  }
+}

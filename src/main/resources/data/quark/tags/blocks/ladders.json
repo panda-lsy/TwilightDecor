@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:canopy_ladder",
+    "twilightdecor:darkwood_ladder",
+    "twilightdecor:mangrove_ladder",
+    "twilightdecor:mining_ladder",
+    "twilightdecor:sorting_ladder",
+    "twilightdecor:timewood_ladder",
+    "twilightdecor:transformation_ladder",
+    "twilightdecor:twilight_oak_ladder"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "twilightforest:block/wood/planks_sort_0",
+        "side": "twilightdecor:block/sorting_bookshelf"
+    }
+}

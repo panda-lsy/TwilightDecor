@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:sort_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:sorting_support",
+    "count": 3
+  }
+}

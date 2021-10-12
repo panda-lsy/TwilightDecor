@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/support",
+  "textures": {
+    "particle": "twilightdecor:block/sorting_support",
+    "texture": "twilightdecor:block/sorting_support"
+  }
+}

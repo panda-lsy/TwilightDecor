@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:stripped_time_log"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:timewood_beam",
+    "count": 2
+  }
+}

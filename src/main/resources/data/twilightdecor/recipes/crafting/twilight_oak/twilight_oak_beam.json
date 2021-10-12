@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "twilightforest:stripped_twilight_oak_log"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:twilight_oak_beam",
+    "count": 2
+  }
+}

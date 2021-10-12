@@ -1,0 +1,7 @@
+{
+  "parent": "decorative_blocks:custom/seat",
+  "textures": {
+    "particle": "twilightdecor:block/mangrove_seat",
+    "texture": "twilightdecor:block/mangrove_seat"
+  }
+}

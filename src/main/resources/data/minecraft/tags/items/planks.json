@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:vertical_canopy_planks",
+    "twilightdecor:vertical_darkwood_planks",
+    "twilightdecor:vertical_mangrove_planks",
+    "twilightdecor:vertical_mining_planks",
+    "twilightdecor:vertical_sorting_planks",
+    "twilightdecor:vertical_timewood_planks",
+    "twilightdecor:vertical_transformation_planks",
+    "twilightdecor:vertical_twilight_oak_planks"
+  ]
+}

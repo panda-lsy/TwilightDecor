@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "twilightdecor:block/timewood_ladder" },
+        "facing=east":  { "model": "twilightdecor:block/timewood_ladder", "y": 90 },
+        "facing=south": { "model": "twilightdecor:block/timewood_ladder", "y": 180 },
+        "facing=west":  { "model": "twilightdecor:block/timewood_ladder", "y": 270 }
+    }
+}

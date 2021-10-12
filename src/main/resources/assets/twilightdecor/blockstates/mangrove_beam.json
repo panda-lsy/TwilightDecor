@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "twilightdecor:block/mangrove_beam_x"
+    },
+    "axis=y": {
+      "model": "twilightdecor:block/mangrove_beam_y"
+    },
+    "axis=z": {
+      "model": "twilightdecor:block/mangrove_beam_z"
+    }
+  }
+}

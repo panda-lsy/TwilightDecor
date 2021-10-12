@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:dark_planks"
+    }
+  },
+  "result": {
+    "item": "twilightdecor:vertical_darkwood_planks",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_planks"
+    }
+  ]
+} 

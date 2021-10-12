@@ -1,0 +1,8 @@
+{
+    "parent": "block/ladder",
+    "textures": {
+        "particle": "twilightdecor:block/timewood_ladder",
+        "texture": "twilightdecor:block/timewood_ladder"
+    }
+}
+

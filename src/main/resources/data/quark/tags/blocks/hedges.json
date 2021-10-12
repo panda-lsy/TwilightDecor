@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:canopy_hedge",
+    "twilightdecor:darkwood_hedge",
+    "twilightdecor:mangrove_hedge",
+    "twilightdecor:mining_hedge",
+    "twilightdecor:sorting_hedge",
+    "twilightdecor:timewood_hedge",
+    "twilightdecor:transformation_hedge",
+    "twilightdecor:twilight_oak_hedge",
+    "twilightdecor:rainboak_hedge"
+  ]
+}

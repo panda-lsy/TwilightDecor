@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "twilightdecor:canopy_bookshelf",
+    "twilightdecor:darkwood_bookshelf",
+    "twilightdecor:mangrove_bookshelf",
+    "twilightdecor:mining_bookshelf",
+    "twilightdecor:sorting_bookshelf",
+    "twilightdecor:timewood_bookshelf",
+    "twilightdecor:transformation_bookshelf",
+    "twilightdecor:twilight_oak_bookshelf"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.jodlodi.core.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "mixins": [
+    "MixinTransformPowderItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "twilightdecor.mixin-refmap.json"
+}
