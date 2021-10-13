@@ -18,7 +18,7 @@ mixin {
     add sourceSets.main, "twilightdecor.mixin-refmap.json"
 }
 
-version = '1.0'
+version = '1.01'
 group = 'io.github.jodlodi'
 archivesBaseName = 'twilightdecor'
 
