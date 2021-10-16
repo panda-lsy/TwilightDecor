@@ -1,0 +1,14 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "twilightforest:transwood_logs"
+  },
+  "result": "twilightdecor:transformation_boat",
+  "count": 1,
+  "conditions" : [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    }
+  ]
+}

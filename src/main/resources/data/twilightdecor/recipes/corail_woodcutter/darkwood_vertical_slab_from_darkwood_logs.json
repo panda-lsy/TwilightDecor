@@ -1,0 +1,27 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "twilightforest:darkwood_logs"
+  },
+  "result": "twilightdecor:darkwood_vertical_slab",
+  "count": 8,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "corail_woodcutter"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        },
+        {
+          "type": "abnormals_core:quark_flag",
+		  "flag": "vertical_slabs"
+        }
+      ]
+    }
+  ]
+}

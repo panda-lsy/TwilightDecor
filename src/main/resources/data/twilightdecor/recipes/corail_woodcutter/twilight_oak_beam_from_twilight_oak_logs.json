@@ -1,0 +1,14 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "twilightforest:twilight_oak_logs"
+  },
+  "result": "twilightdecor:twilight_oak_beam",
+  "count": 1,
+  "conditions" : [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    }
+  ]
+}

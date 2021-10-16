@@ -9,8 +9,6 @@ public class ConfigSetup {
     public static final Map<EntityType<?>, EntityType<?>> customTransformMap = new HashMap();
 
     public static void addCustomInitTransformations(String[] inputStrings) {
-        System.out.println(inputStrings[0]);
-        System.out.println(inputStrings[1]);
         //Example: minecraft:pig - minecraft:pig - minecraft:pig - minecraft:pig - minecraft:pig
         for (int b = 0; b < inputStrings.length; b++) {
             String[] splitString = inputStrings[b].split(" ");
@@ -29,7 +27,6 @@ public class ConfigSetup {
     }
 
     private static void addCustomTransformation(String from, String to){
-        System.out.println(from + " can now transform into " + to + "!");
         customTransformMap.put(EntityType.byString(from).get(), EntityType.byString(to).get());
     }
 }

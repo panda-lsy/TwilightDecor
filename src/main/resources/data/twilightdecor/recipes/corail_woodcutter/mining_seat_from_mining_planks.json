@@ -1,0 +1,14 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "twilightforest:mine_planks"
+  },
+  "result": "twilightdecor:mining_seat",
+  "count": 1,
+  "conditions" : [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    }
+  ]
+}

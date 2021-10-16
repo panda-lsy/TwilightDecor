@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "twilightdecor:mangrove_beam"
+    }
+  ],
+  "result": {
+    "item": "twilightforest:mangrove_planks",
+    "count": 4
+  }
+}

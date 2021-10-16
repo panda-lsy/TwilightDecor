@@ -1,0 +1,14 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "twilightforest:mangrove_logs"
+  },
+  "result": "twilightdecor:mangrove_palisade",
+  "count": 4,
+  "conditions" : [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "corail_woodcutter"
+    }
+  ]
+}

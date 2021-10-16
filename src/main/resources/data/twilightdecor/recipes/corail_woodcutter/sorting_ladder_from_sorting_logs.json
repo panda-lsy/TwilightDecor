@@ -1,0 +1,27 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "tag": "twilightforest:sortwood_logs"
+  },
+  "result": "twilightdecor:sorting_ladder",
+  "count": 4,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "corail_woodcutter"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        },
+        {
+          "type": "abnormals_core:quark_flag",
+          "flag": "variant_ladders"
+        }
+      ]
+    }
+  ]
+}

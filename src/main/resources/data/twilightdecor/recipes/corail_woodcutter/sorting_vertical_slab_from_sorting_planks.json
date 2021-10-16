@@ -1,0 +1,27 @@
+{
+  "type": "corail_woodcutter:woodcutting",
+  "ingredient": {
+    "item": "twilightforest:sort_planks"
+  },
+  "result": "twilightdecor:sorting_vertical_slab",
+  "count": 2,
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "corail_woodcutter"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "quark"
+        },
+        {
+          "type": "abnormals_core:quark_flag",
+		  "flag": "vertical_slabs"
+        }
+      ]
+    }
+  ]
+}

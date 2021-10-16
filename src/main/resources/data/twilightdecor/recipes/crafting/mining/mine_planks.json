@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "twilightdecor:mining_beam"
+    }
+  ],
+  "result": {
+    "item": "twilightforest:mine_planks",
+    "count": 4
+  }
+}
