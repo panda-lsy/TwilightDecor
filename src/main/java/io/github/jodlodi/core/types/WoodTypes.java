@@ -14,16 +14,14 @@ public class WoodTypes
     public static Set<Pair<String, IWoodType>> woodTypes = new HashSet<>();
 
     static {
-        addModWoodTypes("twilightforest", (IWoodType[]) WoodEnum.values());
+        addModWoodTypes(WoodEnum.values());
     }
 
-
-    private static void addModWoodTypes(String modid, IWoodType[] modWood) {
-        Arrays.<IWoodType>stream(modWood).forEach(woodType -> woodTypes.add(Pair.of(modid, woodType)));
+    private static void addModWoodTypes(IWoodType[] modWood) {
+        Arrays.stream(modWood).forEach(woodType -> woodTypes.add(Pair.of("twilightforest", woodType)));
     }
-
 
     public static Collection<IWoodType> allWoodTypes() {
-        return (Collection<IWoodType>)woodTypes.stream().map(Pair::getValue).collect(Collectors.toList());
+        return woodTypes.stream().map(Pair::getValue).collect(Collectors.toList());
     }
 }

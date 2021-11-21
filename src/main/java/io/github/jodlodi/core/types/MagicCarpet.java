@@ -2,7 +2,6 @@ package io.github.jodlodi.core.types;
 
 import com.minecraftabnormals.abnormals_core.common.blocks.LeafCarpetBlock;
 import net.minecraft.block.BlockState;
-import net.minecraft.particles.IParticleData;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -20,13 +19,13 @@ public class MagicCarpet extends LeafCarpetBlock {
 
     private void carpetSparkleRunes(World world, BlockPos pos, Random rand) {
         Direction side = Direction.getRandom(rand);
-        double rx = (double)((float)pos.getX() + rand.nextFloat());
+        double rx = ((float)pos.getX() + rand.nextFloat());
         double ry;
-        double rz = (double)((float)pos.getZ() + rand.nextFloat());
+        double rz = ((float)pos.getZ() + rand.nextFloat());
 
         if (side == Direction.DOWN) {
             ry = (double)(pos.getY()) + 0.125D;
-            world.addParticle((IParticleData) TFParticleType.LEAF_RUNE.get(), rx, ry, rz, 0.0D, 0.0D, 0.0D);
+            world.addParticle(TFParticleType.LEAF_RUNE.get(), rx, ry, rz, 0.0D, 0.0D, 0.0D);
         }
     }
 }

@@ -2,7 +2,6 @@ package io.github.jodlodi.core.types;
 
 import com.minecraftabnormals.abnormals_core.common.blocks.HedgeBlock;
 import net.minecraft.block.BlockState;
-import net.minecraft.particles.IParticleData;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -21,9 +20,9 @@ public class MagicHedge extends HedgeBlock {
     private void hedgeSparkleRunes(World world, BlockPos pos, Random rand) {
         double offset = 0.0625D;
         Direction side = Direction.getRandom(rand);
-        double rx = (double)((float)pos.getX() + rand.nextFloat() * 0.75D);
-        double ry = (double)((float)pos.getY() + rand.nextFloat());
-        double rz = (double)((float)pos.getZ() + rand.nextFloat() * 0.75D);
+        double rx = ((float)pos.getX() + rand.nextFloat() * 0.75D);
+        double ry = ((float)pos.getY() + rand.nextFloat());
+        double rz = ((float)pos.getZ() + rand.nextFloat() * 0.75D);
         if (side == Direction.DOWN && world.isEmptyBlock(pos.above())) {
             ry = (double)(pos.getY() + 1) + offset;
         }
@@ -49,7 +48,7 @@ public class MagicHedge extends HedgeBlock {
         }
 
         if (rx < (double)pos.getX() + 0.125D || rx > (double)pos.getX() + 0.875D || ry < (double)pos.getY() || ry > (double)(pos.getY() + 1) || rz < (double)pos.getZ() + 0.125D || rz > (double)pos.getZ() + 0.875D) {
-            world.addParticle((IParticleData) TFParticleType.LEAF_RUNE.get(), rx, ry, rz, 0.0D, 0.0D, 0.0D);
+            world.addParticle(TFParticleType.LEAF_RUNE.get(), rx, ry, rz, 0.0D, 0.0D, 0.0D);
         }
     }
 }
