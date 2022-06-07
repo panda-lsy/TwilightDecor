@@ -6,10 +6,10 @@
   ],
   "key": {
     "x": {
-      "item": "twilightforest:trans_slab"
+      "item": "twilightforest:transformation_slab"
     },
     "y": {
-      "item": "twilightforest:trans_fence"
+      "item": "twilightforest:transformation_fence"
     }
   },
   "result": {

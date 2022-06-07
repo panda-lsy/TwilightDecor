@@ -1,7 +1,7 @@
 {
   "type": "corail_woodcutter:woodcutting",
   "ingredient": {
-    "item": "twilightforest:trans_planks"
+    "item": "twilightforest:transformation_planks"
   },
   "result": "twilightdecor:transformation_support",
   "count": 1,

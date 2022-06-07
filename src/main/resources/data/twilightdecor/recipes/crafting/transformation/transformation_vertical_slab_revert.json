@@ -6,12 +6,12 @@
     }
   ],
   "result": {
-    "item": "twilightforest:trans_slab",
+    "item": "twilightforest:transformation_slab",
     "count": 1
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "vertical_slabs"
     }
   ]

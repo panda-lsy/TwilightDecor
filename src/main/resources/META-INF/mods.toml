@@ -20,14 +20,14 @@ A small mod which aims to give compatibility for decoration mods to the Twilight
 [[dependencies.twilightdecor]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.twilightdecor]]
-    modId="abnormals_core"
+    modId="blueprint"
     mandatory=true
-    versionRange="[3.3.0,)"
+    versionRange=",)"
     ordering="NONE"
     side="BOTH"
 

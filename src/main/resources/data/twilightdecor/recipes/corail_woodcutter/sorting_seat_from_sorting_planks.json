@@ -1,7 +1,7 @@
 {
   "type": "corail_woodcutter:woodcutting",
   "ingredient": {
-    "item": "twilightforest:sort_planks"
+    "item": "twilightforest:sorting_planks"
   },
   "result": "twilightdecor:sorting_seat",
   "count": 1,

@@ -6,7 +6,7 @@
   ],
   "key": {
     "L": {
-      "item": "twilightforest:rainboak_leaves"
+      "item": "twilightforest:rainbow_oak_leaves"
     },
     "W": {
       "tag": "twilightforest:twilight_oak_logs"
@@ -18,7 +18,7 @@
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "hedges"
     }
   ]

@@ -6,10 +6,10 @@
   ],
   "key": {
     "x": {
-      "item": "twilightforest:mine_slab"
+      "item": "twilightforest:mining_slab"
     },
     "y": {
-      "item": "twilightforest:mine_fence"
+      "item": "twilightforest:mining_fence"
     }
   },
   "result": {

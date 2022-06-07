@@ -6,12 +6,12 @@
     }
   ],
   "result": {
-    "item": "twilightforest:trans_planks",
+    "item": "twilightforest:transformation_planks",
     "count": 1
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "vertical_planks"
     }
   ]

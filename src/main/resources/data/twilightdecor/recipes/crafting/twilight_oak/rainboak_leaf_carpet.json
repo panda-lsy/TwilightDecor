@@ -5,7 +5,7 @@
   ],
   "key": {
     "#": {
-      "item": "twilightforest:rainboak_leaves"
+      "item": "twilightforest:rainbow_oak_leaves"
     }
   },
   "result": {
@@ -14,7 +14,7 @@
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "leaf_carpet"
     }
   ]

@@ -6,12 +6,12 @@
     }
   ],
   "result": {
-    "item": "twilightforest:sort_planks",
+    "item": "twilightforest:sorting_planks",
     "count": 1
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "vertical_planks"
     }
   ]

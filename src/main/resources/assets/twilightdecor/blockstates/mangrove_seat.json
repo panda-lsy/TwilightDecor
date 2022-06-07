@@ -2,6 +2,41 @@
   "multipart": [
     {
       "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mangrove_seat"
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mangrove_seat",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mangrove_seat",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "twilightdecor:block/mangrove_seat",
+        "y": 270
+      }
+    },
+    {
+      "when": {
         "attached": "true"
       },
       "apply": {
@@ -10,37 +45,10 @@
     },
     {
       "when": {
-        "facing": "north"
+        "post": "true"
       },
       "apply": {
         "model": "twilightdecor:block/mangrove_seat_top"
-      }
-    },
-    {
-      "when": {
-        "facing": "south"
-      },
-      "apply": {
-        "model": "twilightdecor:block/mangrove_seat_top",
-        "y": 180
-      }
-    },
-    {
-      "when": {
-        "facing": "east"
-      },
-      "apply": {
-        "model": "twilightdecor:block/mangrove_seat_top",
-        "y": 90
-      }
-    },
-    {
-      "when": {
-        "facing": "west"
-      },
-      "apply": {
-        "model": "twilightdecor:block/mangrove_seat_top",
-        "y": 270
       }
     }
   ]

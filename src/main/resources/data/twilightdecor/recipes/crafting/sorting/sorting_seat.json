@@ -6,10 +6,10 @@
   ],
   "key": {
     "x": {
-      "item": "twilightforest:sort_slab"
+      "item": "twilightforest:sorting_slab"
     },
     "y": {
-      "item": "twilightforest:sort_fence"
+      "item": "twilightforest:sorting_fence"
     }
   },
   "result": {

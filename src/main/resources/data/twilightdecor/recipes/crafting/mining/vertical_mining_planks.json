@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "twilightforest:mine_planks"
+      "item": "twilightforest:mining_planks"
     }
   },
   "result": {
@@ -16,7 +16,7 @@
   },
   "conditions": [
     {
-      "type": "abnormals_core:quark_flag",
+      "type": "blueprint:quark_flag",
       "flag": "vertical_planks"
     }
   ]

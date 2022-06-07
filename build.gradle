@@ -12,16 +12,14 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.1'
-group = 'io.github.jodlodi'
+group = 'io.github.jodlodi.twilightdecor'
 archivesBaseName = 'twilightdecor'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'official', version: '1.16.5'
-    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
-    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    mappings channel: 'official', version: '1.18.2'
     runs {
         client {
             workingDirectory project.file('run')
@@ -65,18 +63,16 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.0'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.47'
 
-    implementation fg.deobf("curse.maven:twilightforest-227639:3413560")
-    implementation fg.deobf("curse.maven:abnormals_core-382216:3457851")
-    implementation fg.deobf("curse.maven:decorative_blocks-362528:3166283")
+    implementation fg.deobf("teamtwilight:twilightforest:4.1.1056:universal")
+    implementation fg.deobf("curse.maven:blueprint-382216:3756782")
+    implementation fg.deobf("curse.maven:decorative_blocks-362528:3697638")
 }
 
 repositories {
-    //maven { url "https://maven.jaackson.me" }
     maven { url "https://www.cursemaven.com" }
-    //maven { url "https://dvs1.progwml6.com/files/maven/" }
-    //maven { url "https://modmaven.k-4u.nl" }
+    maven { url "https://modmaven.dev/" }
 }
 
 jar {

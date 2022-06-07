@@ -1,7 +1,7 @@
 {
   "type": "corail_woodcutter:woodcutting",
   "ingredient": {
-    "item": "twilightforest:trans_planks"
+    "item": "twilightforest:transformation_planks"
   },
   "result": "twilightdecor:transformation_ladder",
   "count": 1,
@@ -18,7 +18,7 @@
           "modid": "quark"
         },
         {
-          "type": "abnormals_core:quark_flag",
+          "type": "blueprint:quark_flag",
           "flag": "variant_ladders"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "type": "corail_woodcutter:woodcutting",
   "ingredient": {
-    "item": "twilightforest:mine_planks"
+    "item": "twilightforest:mining_planks"
   },
   "result": "twilightdecor:mining_support",
   "count": 1,
